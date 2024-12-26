@@ -49,7 +49,7 @@ div.html:hover{
     border: 1px solid rgba(255,255,255,0.2);
 }
 
-div.html > img{
+div.html > a{
     width: 35px;
     height: 35px;
     margin-top: 15px;
@@ -71,7 +71,7 @@ div.css:hover{
     border: 1px solid rgba(255,255,255,0.2);
 }
 
-div.css > img{
+div.css > a{
     width: 35px;
     height: 35px;
     margin-top: 15px;
@@ -93,7 +93,7 @@ div.python:hover{
     border: 1px solid rgba(255,255,255,0.2);
 }
 
-div.python > img{
+div.python > a{
     width: 35px;
     height: 35px;
     margin-top: 15px;
