@@ -52,7 +52,7 @@ div.html:hover{
 div.html > a{
     width: 35px;
     height: 35px;
-    margin-top: 15px;
+    margin-top: 9px;
 }
 
 div.css{
@@ -74,7 +74,7 @@ div.css:hover{
 div.css > a{
     width: 35px;
     height: 35px;
-    margin-top: 15px;
+    margin-top: 9px;
 }
 
 div.python{
@@ -96,7 +96,7 @@ div.python:hover{
 div.python > a{
     width: 35px;
     height: 35px;
-    margin-top: 15px;
+    margin-top: 9px;
 }
 
 div.future div.h3{
