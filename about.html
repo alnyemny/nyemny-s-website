@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Aerial by HTML5 UP</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css" />
+  </noscript>
+</head>
+
+<body class="is-preload-no-anim">
+  <div id="wrapper">
+    <div id="bg"></div>
+    <div id="overlay"></div>
+    <div id="main">
+
+      <header id="header">
+        <nav class="pages-Hnav">
+          <a href="index.html">Home</a>
+          <span> &nbsp;&bull;&nbsp; </span>
+          <a href="about.html">About</a>
+        </nav>
+
+        <h1>Idali Sofiane</h1>
+        <p>&nbsp;&bull;&nbsp; A passionate in all domain &nbsp;&bull;&nbsp;</p>
+        <nav>
+          <ul>
+            <li>
+              <p class="boringText">
+                insert boring text here
+              </p>
+            </li>
+            <li>
+              <p class="boringText">
+                and here also
+              </p>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <footer id="footer">
+
+      </footer>
+
+    </div>
+  </div>
+  <script>
+    window.onload = function () {document.body.classList.remove('is-preload');}
+    window.ontouchmove = function () {return false;}
+    window.onorientationchange = function () {document.body.scrollTop = 0;}
+
+    function copyEmail(e) {
+      e.preventDefault();
+      navigator.clipboard.writeText("idali.sof@gmail.com")
+        .then(() => alert("Email copied to clipboard!"))
+        .catch(err => console.error("copy failed", err));
+    }
+  </script>
+</body>
+
+</html>
